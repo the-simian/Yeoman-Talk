@@ -37,6 +37,13 @@
 #css-controls-demo label {
     display: block;
 }
+
+.slide img {
+    margin: 0 auto;
+    display:block
+}
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 0) {
     /* hack to avoid using the Object element in Safari/WebKit, due to WebKit Bug 27190 */
     object[type="image/svg+xml"] {

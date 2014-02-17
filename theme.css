@@ -126,8 +126,12 @@ pre strong {
 .slide li {
     font-weight: bold;
     letter-spacing: -.03em;
-    font-size: 25px;
+    font-size: 27px;
 }
+
+
+
+
 .slide > ul {
     list-style: none;
 }
