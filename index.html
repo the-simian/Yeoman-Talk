@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>CSSS: A brief introduction</title>
+
+    <link href="slideshow.css" rel="stylesheet" />
+    <link href="theme.css" rel="stylesheet" />
+    <link href="talk.css" rel="stylesheet" />
+    <script src="prefixfree.min.js"></script>
+</head>
+
+<body data-duration="10">
+    <header id="intro" class="slide">
+        <h1 width="100%">
+            <img src="img/yeoman/yeoman-logo.png" style="margin:0 auto" />
+        </h1>
+        <h3 class="subtitle">A Scaffolding Tool for Modern Javascript Workflow</h3>
+        <p class="attribution">Jesse Harlin + Ben Van Treese</p>
+    </header>
+    <section>
+        <section class="slide">
+           <p>Who are Ben and Jesse?</p>
+            <ul>
+                <li class="delayed">Developers at Telogical</li>
+                <li class="delayed">Wild Stallions</li>
+                <li class="delayed">Wild Stallions Rule</li>
+                <li class="delayed"></li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <header class="slide clean">
+            <h1>Scaffolding</h1>
+        </header>
+        <section class="slide" title="CSSS: Introduction">
+            <h2>Scaffolding</h2>
+            
+        </section>
+    </section>
+    <section>
+        <header class="slide clean">
+            <h1>Yeoman</h1>
+        </header>
+        <section class="slide" title="CSSS: Introduction">
+            <h2>What is Yeoman</h2>
+            <ul>
+                <li class="delayed">fgjh</li>
+                <li class="delayed">fj</li>
+                <li class="delayed">fjh</li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <header class="slide clean">
+            <h1>A Simple Generator</h1>
+        </header>
+        <section class="slide" title="CSSS: Introduction">
+            <h2>What is Yeoman</h2>
+            <ul>
+                <li class="delayed">fgjh</li>
+                <li class="delayed">fj</li>
+                <li class="delayed">fjh</li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <header class="slide clean">
+            <h1>Community Generators</h1>
+        </header>
+        <section class="slide" title="CSSS: Introduction">
+            <h2>Official Generators</h2>
+            <ul>
+                <li class="delayed">fgjh</li>
+                <li class="delayed">fj</li>
+                <li class="delayed">fjh</li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <header class="slide clean">
+            <h1>The Next Level</h1>
+        </header>
+        <section class="slide" title="CSSS: Introduction">
+            <h2>Warp9</h2>
+            <ul>
+                <li class="delayed">fgjh</li>
+                <li class="delayed">fj</li>
+                <li class="delayed">fjh</li>
+                <!--Put Jasmine in here somewhere-->
+            </ul>
+        </section>
+    </section>
+
+    <footer class="slide" title="The End">
+        <h2>Questions</h2>
+    </footer>
+
+    <script src="slideshow.js"></script>
+    <script src="plugins/css-edit.js"></script>
+    <script src="plugins/css-snippets.js"></script>
+    <script src="plugins/css-controls.js"></script>
+    <script src="plugins/code-highlight.js"></script>
+    <script>
+        var slideshow = new SlideShow();
+        var snippets = document.querySelectorAll('.snippet');
+        for (var i = 0; i < snippets.length; i++) {
+            new CSSSnippet(snippets[i]);
+        }
+        var cssControls = document.querySelectorAll('.css-control');
+        for (var i = 0; i < cssControls.length; i++) {
+            new CSSControl(cssControls[i]);
+        }
+    </script>
+</body>
+
+</html>
